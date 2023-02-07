@@ -1,0 +1,54 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="480px" />
+  </mj-head>
+  <mj-attributes>
+
+  </mj-attributes>
+  <!-- <mj-style inline="inline">
+    .primary {
+      background: rgb(174, 129, 65) !important;
+    }
+  </mj-style> -->
+  <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" />
+  <mj-body>
+
+    <!-- Header Section -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="static\lost_continent_instincts.jpeg" alt="Instincts'23" width='150px' />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <!-- Content text goes here -->
+        <mj-text font-family="Playfair Display,serif">
+          &emsp;&emsp;SSN Institutions and Siv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.<br><br>
+          &emsp;&emsp;INSTINCTS 2023, which is going to takes place on March 9,10 and 11, 2023. It is A National Level Cultural Festival which consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.<br><br>
+          &emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.<br><br>
+          &emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.<br><br>
+          &emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, your wings to unleash the secrets buried far bellow of the human city around the abyss. Join yourself for a grandeur of fun and entertainment.<br><br>
+
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer section -->
+    <mj-section>
+      <mj-column>
+        <mj-social align="center" icon-size="30px" mode="horizontal" font-size="10px">
+          <mj-social-element icon-size="29px" padding="0 2px 0 0" href="https://www.instagram.com/ssnsnucinstincts/" src="static\icons8-instagram-50.png">
+            ssnsnucinstincts
+          </mj-social-element>
+          <mj-social-element icon-size="30px" padding="0 0 0 20px" href="https://www.ssnsnucinstincts.com" src="static\icons8-internet-48.png">
+            www.ssnsnucinstincts.com
+          </mj-social-element>
+          <mj-social-element icon-size="30px" padding="0 1px 0 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="static\icons8-facebook-50.png">
+            instincts.ssnsnuc
+          </mj-social-element>
+        </mj-social>
+        </mj-group>
+    </mj-section>
+  </mj-body>
+</mjml>
