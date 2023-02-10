@@ -3,28 +3,36 @@
     <mj-breakpoint width="480px" />
     <mj-style>
       .grad {
-        background: rgb(4, 204, 216) !important;
-        background: linear-gradient(90deg,
-          rgba(4, 204, 216, 1) 0%,
-          rgba(1, 35, 72, 1) 79%,
-          rgba(2, 30, 66, 1) 100%) !important;
+
+        background: rgb(4, 67, 109);
+        background: radial-gradient(circle, rgba(4, 67, 109, 1) 4%, rgba(4, 36, 70, 1) 93%);
 
       }
     </mj-style>
     <mj-style>
       .bg-img {
-        border: 2px solid #ffffff;
+      height: auto;
+      width: auto;
+      <!-- border: 2px solid #ffffff; -->
       }
 
-      text {
-        color:
+      .text {
+      font-family: 'EB Garamond', serif;
+      }
+
+      .text-layout {
+      background: rgba(1, 40, 72, 0.6)
       }
     </mj-style>
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" />
+    <mj-font name="EB Garamond" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" />
   </mj-head>
 
-  <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" />
+
+
+
   <mj-body>
-    <mj-wrapper css-class="bg-img" background-url="static\lostisland.jpg" background-position="20% 80%">
+    <mj-wrapper css-class="bg-img" background-url="static/lostisland.jpg" background-repeat="repeat">
       <mj-section padding="0">
         <!-- Header Section -->
         <mj-column vertical-align="middle" width="25%">
@@ -40,14 +48,14 @@
       </mj-section>
 
       <mj-section>
-        <mj-column>
+        <mj-column css-class="text-layout">
           <!-- Content text goes here -->
-          <mj-text font-family="Playfair Display,serif" color="#ffffff" font-size="14px">
-            <span>&emsp;&emsp;SSN Institutions and Shiv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.</span><br><br>
-            <span>&emsp;&emsp;INSTINCTS 2023, which is going to takes place on March 9,10 and 11, 2023. It is A National Level Cultural Festival which consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</span><br><br>
-            <span>&emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.</span><br><br>
-            <span>&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</span><br><br>
-            <span>&emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, your wings to unleash the secrets buried far bellow of the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</span><br><br>
+          <mj-text font-family="EB Garamond" color="#ffffff" font-size="16px">
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;SSN Institutions and Shiv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;INSTINCTS 2023, which is going to takes place on March 9,10 and 11, 2023. It is A National Level Cultural Festival which consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, your wings to unleash the secrets buried far bellow of the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</p><br><br>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -56,10 +64,10 @@
     <mj-section padding="0">
       <mj-column css-class="grad">
         <mj-social align="center" icon-size="30px" mode="horizontal" font-size="10px" color="#ffffff">
-          <mj-social-element icon-size="24px" padding="2px 2px 2px 0" href="https://www.instagram.com/ssnsnucinstincts/" src="static\icons8-instagram-50.png">
+          <mj-social-element icon-size="28px" padding="2px 2px 2px 0" href="https://www.instagram.com/ssnsnucinstincts/" src="static\icons8-instagram-50.png">
             ssnsnucinstincts
           </mj-social-element>
-          <mj-social-element icon-size="25px" padding="2px 0 2px 20px" href="https://www.ssnsnucinstincts.com" src="static\icons8-internet-48.png">
+          <mj-social-element icon-size="24px" padding="2px 0 2px 20px" href="https://www.ssnsnucinstincts.com" src="static\icons8-internet-50.png">
             www.ssnsnucinstincts.com
           </mj-social-element>
           <mj-social-element icon-size="24px" padding="2px 1px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="static\icons8-facebook-50.png">
