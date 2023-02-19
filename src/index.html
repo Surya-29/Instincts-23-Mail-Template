@@ -59,47 +59,55 @@
     </style>
     <![endif]-->
   <!--[if !mso]><!-->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" type="text/css">
   <style type="text/css">
-    @import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700);
-    @import url(https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap);
+    @import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
 
   </style>
   <!--<![endif]-->
   <style type="text/css">
     @media only screen and (min-width:480px) {
-      .mj-column-per-25 {
-        width: 25% !important;
-        max-width: 25%;
+      .mj-column-per-30 {
+        width: 30% !important;
+        max-width: 30%;
       }
 
-      .mj-column-per-50 {
-        width: 50% !important;
-        max-width: 50%;
+      .mj-column-per-40 {
+        width: 40% !important;
+        max-width: 40%;
       }
 
       .mj-column-per-100 {
         width: 100% !important;
         max-width: 100%;
       }
+
+      .mj-column-px-NaN {
+        width: NaNauto !important;
+        max-width: NaNauto;
+      }
     }
 
   </style>
   <style media="screen and (min-width:480px)">
-    .moz-text-html .mj-column-per-25 {
-      width: 25% !important;
-      max-width: 25%;
+    .moz-text-html .mj-column-per-30 {
+      width: 30% !important;
+      max-width: 30%;
     }
 
-    .moz-text-html .mj-column-per-50 {
-      width: 50% !important;
-      max-width: 50%;
+    .moz-text-html .mj-column-per-40 {
+      width: 40% !important;
+      max-width: 40%;
     }
 
     .moz-text-html .mj-column-per-100 {
       width: 100% !important;
       max-width: 100%;
+    }
+
+    .moz-text-html .mj-column-px-NaN {
+      width: NaNauto !important;
+      max-width: NaNauto;
     }
 
   </style>
@@ -117,14 +125,20 @@
   </style>
   <style type="text/css">
     .grad {
+      border-top: 1.5px solid #ffffff;
       background: rgb(4, 67, 109);
       background: radial-gradient(circle, rgba(4, 67, 109, 1) 4%, rgba(4, 36, 70, 1) 93%);
+    }
+
+    .img-grad {
+      background: rgb(4, 67, 109);
+      background: linear-gradient(0deg, rgba(4, 36, 70, 1) 4%, rgba(4, 67, 109, 1) 93%);
     }
 
     .bg-img {
       height: auto;
       width: auto;
-      < !-- border: 2px solid #ffffff;
+      < !-- border: 1px solid #ffffff;
       -->
     }
 
@@ -133,7 +147,28 @@
     }
 
     .text-layout {
-      background: rgba(1, 40, 72, 0.6)
+      background: rgba(1, 40, 72, 0.48);
+      background-size: 10% 10%;
+    }
+
+    .event-img-left img {
+      border-radius: 4px;
+      float: left;
+      box-shadow: 8px 8px 8px #0d2239;
+    }
+
+    .event-img-right img {
+      border-radius: 4px;
+      float: right;
+      box-shadow: 8px 8px 8px #0d2239;
+    }
+
+    @media(max-width:600px) {
+      .ssn-logo {
+        position: absolute;
+        top: -2px;
+        right: 2px;
+      }
     }
 
   </style>
@@ -141,10 +176,10 @@
 
 <body style="word-spacing:normal;">
   <div style="">
-    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="bg-img-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="static/lostisland.jpg" type="tile" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
-    <div class="bg-img" style="background:url('static/lostisland.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;margin:0px auto;max-width:600px;">
+    <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="bg-img-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><v:rect style="width:600px;" xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"><v:fill origin="0.5, 0" position="0.5, 0" src="https://ucc6cec60f996a0f5343dbf924cc.dl.dropboxusercontent.com/cd/0/inline/B2zwugv-9zbzXXZnuQVJkScfiw78OKB0YiiDvugrk9mrQSg7rFo-xjCKWWKt3nelGdXFmVD3ziCdStOzoMjA4FYP91IUUciCEJbeCR9riKQyPmA2Qd6In0PPwmDtpmvTz1qEupHHrJl4GWik4-geapmrG5JTMwlb0GHyiiR3TcaEPw/file# " type="tile" /><v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0"><![endif]-->
+    <div class="bg-img" style="background:url('https://ucc6cec60f996a0f5343dbf924cc.dl.dropboxusercontent.com/cd/0/inline/B2zwugv-9zbzXXZnuQVJkScfiw78OKB0YiiDvugrk9mrQSg7rFo-xjCKWWKt3nelGdXFmVD3ziCdStOzoMjA4FYP91IUUciCEJbeCR9riKQyPmA2Qd6In0PPwmDtpmvTz1qEupHHrJl4GWik4-geapmrG5JTMwlb0GHyiiR3TcaEPw/file#    ') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;margin:0px auto;max-width:600px;">
       <div style="line-height:0;font-size:0;">
-        <table align="center" background="static/lostisland.jpg" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url('static/lostisland.jpg') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%;">
+        <table align="center" background="https://ucc6cec60f996a0f5343dbf924cc.dl.dropboxusercontent.com/cd/0/inline/B2zwugv-9zbzXXZnuQVJkScfiw78OKB0YiiDvugrk9mrQSg7rFo-xjCKWWKt3nelGdXFmVD3ziCdStOzoMjA4FYP91IUUciCEJbeCR9riKQyPmA2Qd6In0PPwmDtpmvTz1qEupHHrJl4GWik4-geapmrG5JTMwlb0GHyiiR3TcaEPw/file#    " border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:url('https://ucc6cec60f996a0f5343dbf924cc.dl.dropboxusercontent.com/cd/0/inline/B2zwugv-9zbzXXZnuQVJkScfiw78OKB0YiiDvugrk9mrQSg7rFo-xjCKWWKt3nelGdXFmVD3ziCdStOzoMjA4FYP91IUUciCEJbeCR9riKQyPmA2Qd6In0PPwmDtpmvTz1qEupHHrJl4GWik4-geapmrG5JTMwlb0GHyiiR3TcaEPw/file#    ') center top / auto repeat;background-position:center top;background-repeat:repeat;background-size:auto;width:100%;">
           <tbody>
             <tr>
               <td style="direction:ltr;font-size:0px;padding:20px 0;text-align:center;">
@@ -156,8 +191,8 @@
                         <td style="direction:ltr;font-size:0px;padding:0;text-align:center;">
                           <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><![endif]-->
                           <!-- Header Section -->
-                          <!--[if mso | IE]><td class="" style="vertical-align:middle;width:150px;" ><![endif]-->
-                          <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                          <!--[if mso | IE]><td class="" style="vertical-align:middle;width:180px;" ><![endif]-->
+                          <div class="mj-column-per-30 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                               <tbody>
                                 <tr>
@@ -165,8 +200,8 @@
                                     <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
                                       <tbody>
                                         <tr>
-                                          <td style="width:100px;">
-                                            <img alt="" height="auto" src="static\SNUC - White.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="100" />
+                                          <td style="width:125px;">
+                                            <img alt="" height="auto" src="https://uc0bd62111489c9d72e1f335b6cd.dl.dropboxusercontent.com/cd/0/inline/B2w0HFZFxoyoLas3_sfdYwqpVOENBWNGJnC6AbW0UrwlLSOQjmj74xD7AAQvM0vj13KE-kuM8fkU0lhQKYMn7UcjEBUyv9YNNV1g87PsPYb68OMhBFIJM-hah84wp-M_-MFC4YTKAQJHafCWi4Ex5TQmkZ-hi_dqqqxxli8Igsa6TQ/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="125" />
                                           </td>
                                         </tr>
                                       </tbody>
@@ -176,8 +211,8 @@
                               </tbody>
                             </table>
                           </div>
-                          <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:300px;" ><![endif]-->
-                          <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                          <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:240px;" ><![endif]-->
+                          <div class="mj-column-per-40 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                               <tbody>
                                 <tr>
@@ -186,7 +221,7 @@
                                       <tbody>
                                         <tr>
                                           <td style="width:150px;">
-                                            <img alt="Instincts'23" height="auto" src="static\Instincts 2023.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" />
+                                            <img alt="Instincts'23" height="auto" src="https://uc521e8a98e1c202731222be4549.dl.dropboxusercontent.com/cd/0/inline/B2xY8Dy12noE0Tx-eItZldD8NzwtoNlR4KbRaDWNHhMxEyDDbvu1FkpFRLZHZRi87NErGezDT67ErcXJrhOcnFLkxL22IFQt5AGHQ95lCEmm51BhGu8ian9mNwyMY6KY7F9PEEBh4VE2mpWGepW6X3AxtHgKOASeXzvIvLiH0SvAgw/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150" />
                                           </td>
                                         </tr>
                                       </tbody>
@@ -196,8 +231,8 @@
                               </tbody>
                             </table>
                           </div>
-                          <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:150px;" ><![endif]-->
-                          <div class="mj-column-per-25 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
+                          <!--[if mso | IE]></td><td class="ssn-logo-outlook" style="vertical-align:middle;width:180px;" ><![endif]-->
+                          <div class="mj-column-per-30 mj-outlook-group-fix ssn-logo" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
                             <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
                               <tbody>
                                 <tr>
@@ -206,7 +241,7 @@
                                       <tbody>
                                         <tr>
                                           <td style="width:100px;">
-                                            <img alt="" height="auto" src="static\ssn - white.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="100" />
+                                            <img alt="" height="auto" src="https://uc1a87c7656aa0a6c97af249a56e.dl.dropboxusercontent.com/cd/0/inline/B2xjfo_1lfCVTo1YsNmrIxbcJOSS8_JtlwVtgGtmAw1ilz6rQU_z6DQMKmTV8kw4cd-xuf4EowYKwuufxunbt7lWJ1-_snLYugbrx1bqrY5ATwg77KGGD6U9TQhugDSfV1kgBSONVKdyccGg81cDe0NFVZOLxWRRX12TvwEWdznNew/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="100" />
                                           </td>
                                         </tr>
                                       </tbody>
@@ -235,12 +270,12 @@
                                 <!-- Content text goes here -->
                                 <tr>
                                   <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
-                                    <div style="font-family:EB Garamond;font-size:16px;line-height:1;text-align:left;color:#ffffff;">
+                                    <div style="font-family:Inter;font-size:14px;letter-spacing:0.1px;line-height:17px;text-align:left;color:#ffffff;"><br><br>
                                       <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;SSN Institutions and Shiv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.</p><br><br>
-                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;INSTINCTS 2023, which is going to takes place on March 9,10 and 11, 2023. It is A National Level Cultural Festival which consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</p><br><br>
+                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;INSTINCTS 2023, which is going to take place on March 9,10, and 11, 2023. It is A National Level Cultural Festival that consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</p><br><br>
                                       <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.</p><br><br>
-                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</p><br><br>
-                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, your wings to unleash the secrets buried far bellow of the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</p><br><br>
+                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests, etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</p><br><br>
+                                      <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, and your wings to unleash the secrets buried far below the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</p><br><br>
                                     </div>
                                   </td>
                                 </tr>
@@ -260,7 +295,119 @@
         </table>
       </div>
     </div>
-    <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><![endif]-->
+    <!--[if mso | IE]></v:textbox></v:rect></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="img-grad-outlook" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    <div class="img-grad" style="margin:0px auto;max-width:600px;">
+      <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+        <tbody>
+          <tr>
+            <td style="direction:ltr;font-size:0px;padding:0 10px 10px 10px;text-align:center;">
+              <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:NaNpx;" ><![endif]-->
+              <div class="mj-column-px-NaN mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="event-img-right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:NaNInfinity;">
+                                <img height="auto" src="https://ucc2bb30125786802c23a42ac42e.dl.dropboxusercontent.com/cd/0/inline/B2wpYQpZa10XBh2xlvTn8EHQ9AKvwk3gqRCa6TYjzOpuuzozDxMMUp7nwr2-5sQLMAT1mKCnrf2fPwcfPQmtRNC1A1nIYbFz5eiqUCnLz62Ug2RSpth88035osUf_PXd2EDrXdiIz76bRkdK9b7oS4tFzqPP_MHH9tAKhPIFLGG4Wg/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="Infinity" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:NaNpx;" ><![endif]-->
+              <div class="mj-column-px-NaN mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="event-img-left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:NaNInfinity;">
+                                <img height="auto" src="https://uc434b18e799a80974687d7d0b2a.dl.dropboxusercontent.com/cd/0/inline/B2yVU9XCGzGdl14pOuq8K3zm7WpHue3khVcIOMZU386Ffg7fkxIpW3-YjPyWhTUuJ2xoYJdz_PBAMRGh2sxn-cy-FCpdh6m1klK2SFiei9sn3eek35fXwIzTzLpL3-QsuB73z9qDk0gTKTWxzbnlf36xf5I3qHaLvU5GpjzOoZh3RQ/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="Infinity" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:NaNpx;" ><![endif]-->
+              <div class="mj-column-px-NaN mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="event-img-right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:NaNInfinity;">
+                                <img height="auto" src="https://uccd3cd35ad4efb45ae9da26cbe9.dl.dropboxusercontent.com/cd/0/inline/B2xXAAbRwumaUdiuXc3wDp1TTy1jFoCRB_CjmbeGBupvjeLV18OO9pXSpIaP30Lyi6RXMMbcSPxn377rdVFbDUfTnFjFRvvX0meFhwM-vV3QGluxYUQLecLZ_pVHdAlvcFUntt7Qi3laU4OZTzmpBdVB25v0xQ-GojpIC5ZqRhlI1g/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="Infinity" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:NaNpx;" ><![endif]-->
+              <div class="mj-column-px-NaN mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="event-img-left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:NaNInfinity;">
+                                <img height="auto" src="https://uc5e0c005a5971170a4821da0b2b.dl.dropboxusercontent.com/cd/0/inline/B2xOjhyVhoH4dN_o6PBDWE1clhsb5dxWSKhly5pQics73yp2_-5Z_ujxeYXEBlGve1343tCRdt1UFpVhOzpYz9esH6LyOF8WE5oHBPAktWE0k-TlAFe7BfjcxXrnuExMf2mO8dWD7UEnzqMELEgkU64obzsfy7AuadlU_MKCLqOEPQ/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="Infinity" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td><td class="" style="vertical-align:top;width:NaNpx;" ><![endif]-->
+              <div class="mj-column-px-NaN mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+                  <tbody>
+                    <tr>
+                      <td align="center" class="event-img-right" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                        <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+                          <tbody>
+                            <tr>
+                              <td style="width:NaNInfinity;">
+                                <img height="auto" src="https://ucc6969ceadef7678af7ea553382.dl.dropboxusercontent.com/cd/0/inline/B2xCybNRJv6LQE6R22AwlE_W_GlWQgpkiDoBteXEQuip1ORi1K2rR93MDQP16dgCuO5y24GW_gbtNv4MJqhNQ1Ddu2ptfmpkpQ6CVZsuZtjLrnV-fvf4JkwAeH-3H30nv4Yq319HB8IkN5kmDGmXJcDjjANacehBbVR9G5PVyBAITg/file#" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="Infinity" />
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--[if mso | IE]></td></tr></table><![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--[if mso | IE]></td></tr></table><![endif]-->
     <!-- Footer section -->
     <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     <div style="margin:0px auto;max-width:600px;">
@@ -273,18 +420,18 @@
                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
                   <tbody>
                     <tr>
-                      <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                      <td align="center" style="font-size:0px;padding:0px 1px 1px 1px;word-break:break-word;">
                         <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td><![endif]-->
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:2px 2px 2px 0;vertical-align:middle;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:28px;">
+                              <td style="padding:1px 1.5px 2px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:24px;">
                                   <tbody>
                                     <tr>
-                                      <td style="font-size:0;height:28px;vertical-align:middle;width:28px;">
+                                      <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
                                         <a href="https://www.instagram.com/ssnsnucinstincts/" target="_blank">
-                                          <img height="28" src="static\icons8-instagram-50.png" style="border-radius:3px;display:block;" width="28" />
+                                          <img height="24" src="https://uc57f21b0c16659d6224bcc77860.dl.dropboxusercontent.com/cd/0/inline/B2xo-6SfMjPgeR7v8ivTdOjsZRZy7IMyHITKD5LSNPjaW0Ux4BacWMqr9a30Ui9P0SHXPDoDZJN2yWhsVrEeM7Yp3IvDsWGKXuKbNbpHzjX4cYW9qoApR7FXqKy5zbHfOBB8PYY8zBMoiW9Igcj2iUD7r2pT0R1lQohOo9U2Bw1uEw/file#" style="border-radius:3px;display:block;" width="24" />
                                         </a>
                                       </td>
                                     </tr>
@@ -292,7 +439,7 @@
                                 </table>
                               </td>
                               <td style="vertical-align:middle;">
-                                <a href="https://www.instagram.com/ssnsnucinstincts/" style="color:#ffffff;font-size:10px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;" target="_blank"> ssnsnucinstincts </a>
+                                <a href="https://www.instagram.com/ssnsnucinstincts/" style="color:#ffffff;font-size:10.5px;font-family:Inter;line-height:22px;text-decoration:none;" target="_blank"> ssnsnucinstincts </a>
                               </td>
                             </tr>
                           </tbody>
@@ -301,13 +448,13 @@
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:2px 0 2px 20px;vertical-align:middle;">
+                              <td style="padding:1px 2.5px 2px 20px;vertical-align:middle;">
                                 <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:24px;">
                                   <tbody>
                                     <tr>
                                       <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
                                         <a href="https://www.ssnsnucinstincts.com" target="_blank">
-                                          <img height="24" src="static\icons8-internet-50.png" style="border-radius:3px;display:block;" width="24" />
+                                          <img height="24" src="https://uc2a2c6d4984f6d28e65cc0b4199.dl.dropboxusercontent.com/cd/0/inline/B2x1sw9AZA-cNKA8os_MTPh0TCC2iot9YWLNfNVqnWpkL27kRt7Dqzh7UT15c4gQafbWSEAH5GcjkA3vayRNS43CZtqKagNZvhxxo9SBV9qtYJrMUW3SeE-nuPVVrgQw-sP99vXlYF07oJ2Ruq_DBu4y9AGTx97R0MaWrr_mgP6XMQ/file#" style="border-radius:3px;display:block;" width="24" />
                                         </a>
                                       </td>
                                     </tr>
@@ -315,7 +462,7 @@
                                 </table>
                               </td>
                               <td style="vertical-align:middle;">
-                                <a href="https://www.ssnsnucinstincts.com" style="color:#ffffff;font-size:10px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;" target="_blank"> www.ssnsnucinstincts.com </a>
+                                <a href="https://www.ssnsnucinstincts.com" style="color:#ffffff;font-size:10.5px;font-family:Inter;line-height:22px;text-decoration:none;" target="_blank"> www.ssnsnucinstincts.com </a>
                               </td>
                             </tr>
                           </tbody>
@@ -324,13 +471,13 @@
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:2px 1px 2px 20px;vertical-align:middle;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:24px;">
+                              <td style="padding:1px 2.5px 2px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:22px;">
                                   <tbody>
                                     <tr>
-                                      <td style="font-size:0;height:24px;vertical-align:middle;width:24px;">
+                                      <td style="font-size:0;height:22px;vertical-align:middle;width:22px;">
                                         <a href="https://www.facebook.com/instincts.ssnsnuc/" target="_blank">
-                                          <img height="24" src="static\icons8-facebook-50.png" style="border-radius:3px;display:block;" width="24" />
+                                          <img height="22" src="https://uc110b62f369ad6b7a8393dbab40.dl.dropboxusercontent.com/cd/0/inline/B2yLeQiQcsAgeOOE14Kf7EwLW9JSEdUKGMUP5jGeq_Mt4ivD7uia_pwTYGaUkuOw0ax1-Z8uDy2ZWeoanmPE2jjY2ArI9wv2aF9CNwqeAYlI60W4RumXOAmZ1lY2WkSuBLOBkHjQDy_utWuDXnfCmkrkTXgFMTZHXCIJSGsyl7Xr5g/file#" style="border-radius:3px;display:block;" width="22" />
                                         </a>
                                       </td>
                                     </tr>
@@ -338,7 +485,7 @@
                                 </table>
                               </td>
                               <td style="vertical-align:middle;">
-                                <a href="https://www.facebook.com/instincts.ssnsnuc/" style="color:#ffffff;font-size:10px;font-family:Ubuntu, Helvetica, Arial, sans-serif;line-height:22px;text-decoration:none;" target="_blank"> instincts.ssnsnuc </a>
+                                <a href="https://www.facebook.com/instincts.ssnsnuc/" style="color:#ffffff;font-size:10.5px;font-family:Inter;line-height:22px;text-decoration:none;" target="_blank"> instincts.ssnsnuc </a>
                               </td>
                             </tr>
                           </tbody>
@@ -347,12 +494,12 @@
                         <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="float:none;display:inline-table;">
                           <tbody>
                             <tr>
-                              <td style="padding:0px 0px 0px 50px;vertical-align:middle;">
-                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:32px;">
+                              <td style="padding:10px 4px 15px 20px;vertical-align:middle;">
+                                <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-radius:3px;width:36px;">
                                   <tbody>
                                     <tr>
-                                      <td style="font-size:0;height:32px;vertical-align:middle;width:32px;">
-                                        <img height="32" src="static\Torch.png" style="border-radius:3px;display:block;" width="32" />
+                                      <td style="font-size:0;height:36px;vertical-align:middle;width:36px;">
+                                        <img height="36" src="https://ucfbe1ca1c66e8d14e704884f6ce.dl.dropboxusercontent.com/cd/0/inline/B2wCUG9i0wjwoCyIYDhgC8Mi07IF4gUe_O84asPUN6XZcX3-ifIa1Dx5w4M1R3gVnWWS3ftcs60pZSraUn8TZtE5-XP6ttBIO_4DDQd2tnI_HV_kwWhlbPqI5vhfnoW7i_YgkqgqAv4EtpOmE4-iBmXhafN-IR6JocWgH_XdOD3xJQ/file#" style="border-radius:3px;display:block;" width="36" />
                                       </td>
                                     </tr>
                                   </tbody>
