@@ -21,10 +21,6 @@
       <!-- border: 1px solid #ffffff; -->
       }
 
-      .text {
-      font-family: 'EB Garamond', serif;
-      }
-
       .text-layout {
       background: rgba(1, 40, 72, 0.48);
       background-size: 10% 10%;
@@ -40,7 +36,7 @@
       float: right;
       box-shadow: 8px 8px 8px #0d2239;
       }
-      @media(max-width:600px){
+      @media(max-width:480px){
       .ssn-logo{
       position:absolute;
       top:-2px;
@@ -63,17 +59,17 @@
 
 
   <mj-body>
-    <mj-wrapper css-class="bg-img" background-url="https://ucc6cec60f996a0f5343dbf924cc.dl.dropboxusercontent.com/cd/0/inline/B2zwugv-9zbzXXZnuQVJkScfiw78OKB0YiiDvugrk9mrQSg7rFo-xjCKWWKt3nelGdXFmVD3ziCdStOzoMjA4FYP91IUUciCEJbeCR9riKQyPmA2Qd6In0PPwmDtpmvTz1qEupHHrJl4GWik4-geapmrG5JTMwlb0GHyiiR3TcaEPw/file#    " background-repeat="repeat">
+    <mj-wrapper css-class="bg-img" background-url="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/lostisland_5.png" background-repeat="repeat">
       <mj-section padding="0">
         <!-- Header Section -->
         <mj-column vertical-align="middle" width="30%">
-          <mj-image src="https://uc0bd62111489c9d72e1f335b6cd.dl.dropboxusercontent.com/cd/0/inline/B2w0HFZFxoyoLas3_sfdYwqpVOENBWNGJnC6AbW0UrwlLSOQjmj74xD7AAQvM0vj13KE-kuM8fkU0lhQKYMn7UcjEBUyv9YNNV1g87PsPYb68OMhBFIJM-hah84wp-M_-MFC4YTKAQJHafCWi4Ex5TQmkZ-hi_dqqqxxli8Igsa6TQ/file#" alt="" align="left" width="125px" />
+          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/SNUC%20-%20White.png" alt="" align="left" width="125px" />
         </mj-column>
         <mj-column vertical-align="middle" width="40%">
-          <mj-image src="https://uc521e8a98e1c202731222be4549.dl.dropboxusercontent.com/cd/0/inline/B2xY8Dy12noE0Tx-eItZldD8NzwtoNlR4KbRaDWNHhMxEyDDbvu1FkpFRLZHZRi87NErGezDT67ErcXJrhOcnFLkxL22IFQt5AGHQ95lCEmm51BhGu8ian9mNwyMY6KY7F9PEEBh4VE2mpWGepW6X3AxtHgKOASeXzvIvLiH0SvAgw/file#" alt="Instincts'23" width='150px' />
+          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/Instincts%202023.png" alt="Instincts'23" width='150px' />
         </mj-column>
         <mj-column vertical-align="middle" width="30%" css-class="ssn-logo">
-          <mj-image src="https://uc1a87c7656aa0a6c97af249a56e.dl.dropboxusercontent.com/cd/0/inline/B2xjfo_1lfCVTo1YsNmrIxbcJOSS8_JtlwVtgGtmAw1ilz6rQU_z6DQMKmTV8kw4cd-xuf4EowYKwuufxunbt7lWJ1-_snLYugbrx1bqrY5ATwg77KGGD6U9TQhugDSfV1kgBSONVKdyccGg81cDe0NFVZOLxWRRX12TvwEWdznNew/file#" alt="" align="right" width="100px" />
+          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/ssn%20-%20white.png" alt="" align="right" width="100px" />
         </mj-column>
 
       </mj-section>
@@ -94,35 +90,35 @@
     </mj-wrapper>
     <mj-section css-class="img-grad" padding="0 10px 10px 10px">
       <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://ucc2bb30125786802c23a42ac42e.dl.dropboxusercontent.com/cd/0/inline/B2wpYQpZa10XBh2xlvTn8EHQ9AKvwk3gqRCa6TYjzOpuuzozDxMMUp7nwr2-5sQLMAT1mKCnrf2fPwcfPQmtRNC1A1nIYbFz5eiqUCnLz62Ug2RSpth88035osUf_PXd2EDrXdiIz76bRkdK9b7oS4tFzqPP_MHH9tAKhPIFLGG4Wg/file#">
+        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i5.png">
       </mj-column>
       <mj-column width="auto">
-        <mj-image css-class="event-img-left" src="https://uc434b18e799a80974687d7d0b2a.dl.dropboxusercontent.com/cd/0/inline/B2yVU9XCGzGdl14pOuq8K3zm7WpHue3khVcIOMZU386Ffg7fkxIpW3-YjPyWhTUuJ2xoYJdz_PBAMRGh2sxn-cy-FCpdh6m1klK2SFiei9sn3eek35fXwIzTzLpL3-QsuB73z9qDk0gTKTWxzbnlf36xf5I3qHaLvU5GpjzOoZh3RQ/file#">
+        <mj-image css-class="event-img-left" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i1.png">
       </mj-column>
       <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://uccd3cd35ad4efb45ae9da26cbe9.dl.dropboxusercontent.com/cd/0/inline/B2xXAAbRwumaUdiuXc3wDp1TTy1jFoCRB_CjmbeGBupvjeLV18OO9pXSpIaP30Lyi6RXMMbcSPxn377rdVFbDUfTnFjFRvvX0meFhwM-vV3QGluxYUQLecLZ_pVHdAlvcFUntt7Qi3laU4OZTzmpBdVB25v0xQ-GojpIC5ZqRhlI1g/file#">
+        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i4.png">
       </mj-column>
       <mj-column width="auto">
-        <mj-image css-class="event-img-left" src="https://uc5e0c005a5971170a4821da0b2b.dl.dropboxusercontent.com/cd/0/inline/B2xOjhyVhoH4dN_o6PBDWE1clhsb5dxWSKhly5pQics73yp2_-5Z_ujxeYXEBlGve1343tCRdt1UFpVhOzpYz9esH6LyOF8WE5oHBPAktWE0k-TlAFe7BfjcxXrnuExMf2mO8dWD7UEnzqMELEgkU64obzsfy7AuadlU_MKCLqOEPQ/file#">
+        <mj-image css-class="event-img-left" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i2.png">
       </mj-column>
       <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://ucc6969ceadef7678af7ea553382.dl.dropboxusercontent.com/cd/0/inline/B2xCybNRJv6LQE6R22AwlE_W_GlWQgpkiDoBteXEQuip1ORi1K2rR93MDQP16dgCuO5y24GW_gbtNv4MJqhNQ1Ddu2ptfmpkpQ6CVZsuZtjLrnV-fvf4JkwAeH-3H30nv4Yq319HB8IkN5kmDGmXJcDjjANacehBbVR9G5PVyBAITg/file#">
+        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i3.png">
       </mj-column>
     </mj-section>
     <!-- Footer section -->
     <mj-section padding="0">
       <mj-column css-class="grad">
         <mj-social align="center" padding="0px 1px 1px 1px" mode="horizontal" font-size="10px" color="#ffffff">
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 1.5px 2px 20px" href="https://www.instagram.com/ssnsnucinstincts/" src="https://uc57f21b0c16659d6224bcc77860.dl.dropboxusercontent.com/cd/0/inline/B2xo-6SfMjPgeR7v8ivTdOjsZRZy7IMyHITKD5LSNPjaW0Ux4BacWMqr9a30Ui9P0SHXPDoDZJN2yWhsVrEeM7Yp3IvDsWGKXuKbNbpHzjX4cYW9qoApR7FXqKy5zbHfOBB8PYY8zBMoiW9Igcj2iUD7r2pT0R1lQohOo9U2Bw1uEw/file#">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 1.5px 2px 20px" href="https://www.instagram.com/ssnsnucinstincts/" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-instagram-50.png">
             ssnsnucinstincts
           </mj-social-element>
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 2.5px 2px 20px" href="https://www.ssnsnucinstincts.com" src="https://uc2a2c6d4984f6d28e65cc0b4199.dl.dropboxusercontent.com/cd/0/inline/B2x1sw9AZA-cNKA8os_MTPh0TCC2iot9YWLNfNVqnWpkL27kRt7Dqzh7UT15c4gQafbWSEAH5GcjkA3vayRNS43CZtqKagNZvhxxo9SBV9qtYJrMUW3SeE-nuPVVrgQw-sP99vXlYF07oJ2Ruq_DBu4y9AGTx97R0MaWrr_mgP6XMQ/file#">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 2.5px 2px 20px" href="https://www.ssnsnucinstincts.com" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-internet-50.png">
             www.ssnsnucinstincts.com
           </mj-social-element>
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="22px" padding="1px 2.5px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="https://uc110b62f369ad6b7a8393dbab40.dl.dropboxusercontent.com/cd/0/inline/B2yLeQiQcsAgeOOE14Kf7EwLW9JSEdUKGMUP5jGeq_Mt4ivD7uia_pwTYGaUkuOw0ax1-Z8uDy2ZWeoanmPE2jjY2ArI9wv2aF9CNwqeAYlI60W4RumXOAmZ1lY2WkSuBLOBkHjQDy_utWuDXnfCmkrkTXgFMTZHXCIJSGsyl7Xr5g/file#">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="22px" padding="1px 2.5px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-facebook-50.png">
             instincts.ssnsnuc
           </mj-social-element>
-          <mj-social-element align="center" icon-size="36px" padding="10px 4px 15px 20px" href="" src="https://ucfbe1ca1c66e8d14e704884f6ce.dl.dropboxusercontent.com/cd/0/inline/B2wCUG9i0wjwoCyIYDhgC8Mi07IF4gUe_O84asPUN6XZcX3-ifIa1Dx5w4M1R3gVnWWS3ftcs60pZSraUn8TZtE5-XP6ttBIO_4DDQd2tnI_HV_kwWhlbPqI5vhfnoW7i_YgkqgqAv4EtpOmE4-iBmXhafN-IR6JocWgH_XdOD3xJQ/file#">
+          <mj-social-element align="center" icon-size="36px" padding="10px 4px 15px 20px" href="" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/Torch.png">
           </mj-social-element>
         </mj-social>
 
