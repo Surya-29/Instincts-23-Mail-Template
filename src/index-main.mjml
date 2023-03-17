@@ -1,0 +1,109 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="350px" />
+    <mj-style>
+      .grad {
+        border-top: 1.5px solid #ffffff;
+        background: rgb(4, 67, 109);
+        background: radial-gradient(circle, rgba(4, 67, 109, 1) 4%, rgba(4, 36, 70, 1) 93%);
+
+      }
+
+      .img-grad {
+        background: rgb(4, 67, 109);
+        background: linear-gradient(0deg, rgba(4, 36, 70, 1) 4%, rgba(4, 67, 109, 1) 93%);
+      }
+    </mj-style>
+    <mj-style>
+      .bg-img {
+      height: auto;
+      width: auto;
+      <!-- border: 1px solid #ffffff; -->
+      }
+
+      .text-layout {
+      background: rgba(1, 40, 72, 0.48);
+      background-size: 10% 10%;
+
+      }
+
+    </mj-style>
+
+    <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
+  </mj-head>
+
+
+
+
+  <mj-body>
+    <mj-wrapper css-class="bg-img" background-url="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/lostisland_5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139586145" background-repeat="repeat">
+      <mj-section padding="0">
+        <!-- Header Section -->
+        <mj-group>
+          <mj-column vertical-align="middle" width="30%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/SNUC_-_White.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139586156" alt="" align="left" width="125px" />
+          </mj-column>
+          <mj-column vertical-align="middle" width="40%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/Instincts_2023.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583669" alt="Instincts'23" width='150px' />
+          </mj-column>
+          <mj-column vertical-align="middle" width="30%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/ssn_-_white.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139586155" alt="" align="right" width="100px" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0">
+
+      </mj-section>
+
+      <mj-section>
+        <mj-column css-class="text-layout">
+          <!-- Content text goes here -->
+          <mj-text font-family="Inter" line-height="17px" letter-spacing="0.1px" color="#ffffff" font-size="14px">
+            <br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;SSN Institutions and Shiv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;INSTINCTS 2023, which is going to take place on March 9,10, and 11, 2023. It is A National Level Cultural Festival that consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests, etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</p><br><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;SSN-SNUC extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, and your wings to unleash the secrets buried far below the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</p><br><br>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <mj-section css-class="img-grad">
+      <mj-column width="auto">
+        <mj-image fluid-on-mobile="true" border-radius="7px" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/i5.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583312">
+      </mj-column>
+      <mj-column width="auto">
+        <mj-image fluid-on-mobile="true" border-radius="7px" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/i1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583100">
+      </mj-column>
+      <mj-column width="auto">
+        <mj-image fluid-on-mobile="true" border-radius="7px" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/i4.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583234">
+      </mj-column>
+      <mj-column width="auto">
+        <mj-image fluid-on-mobile="true" border-radius="7px" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/i2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583337">
+      </mj-column>
+      <mj-column width="auto">
+        <mj-image fluid-on-mobile="true" border-radius="7px" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/i3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583150">
+      </mj-column>
+    </mj-section>
+    <!-- Footer section -->
+    <mj-section padding="0">
+      <mj-column css-class="grad">
+        <mj-social align="center" padding="0px 1px 1px 1px" mode="horizontal" font-size="10px" color="#ffffff">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 1.5px 2px 20px" href="https://www.instagram.com/ssnsnucinstincts/" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-instagram-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583076">
+            ssnsnucinstincts
+          </mj-social-element>
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 2.5px 2px 20px" href="https://www.ssnsnucinstincts.com" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-internet-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583080">
+            www.ssnsnucinstincts.com
+          </mj-social-element>
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="22px" padding="1px 2.5px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-facebook-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583102">
+            instincts.ssnsnuc
+          </mj-social-element>
+          <mj-social-element align="center" icon-size="36px" padding="10px 4px 15px 20px" href="" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/Torch.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139585650">
+          </mj-social-element>
+        </mj-social>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

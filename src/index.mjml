@@ -1,7 +1,7 @@
 <mjml>
   <mj-head>
-    <mj-breakpoint width="480px" />
-    <mj-style>
+    <mj-breakpoint width="350px" />
+    <!-- <mj-style>
       .grad {
         border-top: 1.5px solid #ffffff;
         background: rgb(4, 67, 109);
@@ -13,45 +13,20 @@
         background: rgb(4, 67, 109);
         background: linear-gradient(0deg, rgba(4, 36, 70, 1) 4%, rgba(4, 67, 109, 1) 93%);
       }
-    </mj-style>
-    <mj-style>
-      .bg-img {
-      height: auto;
-      width: auto;
-      <!-- border: 1px solid #ffffff; -->
-      }
-
+    </mj-style>  -->
+    <!-- <mj-style>
       .text-layout {
-      background: rgba(1, 40, 72, 0.48);
-      background-size: 10% 10%;
+        background: rgba(0, 0, 0, 0.6);
+        background-size: 10% 10%;
 
       }
-      .event-img-left img{
-      border-radius:4px;
-      float: left;
-      box-shadow: 8px 8px 8px #0d2239;
-      }
-      .event-img-right img{
-      border-radius:4px;
-      float: right;
-      box-shadow: 8px 8px 8px #0d2239;
-      }
-      @media(max-width:480px){
-      .ssn-logo{
-      position:absolute;
-      top:-2px;
-      right:2px;
-      }
 
+      .grad {
+        background: rgba(0, 0, 0, 0.2);
+        background-size: 10% 10%;
       }
-    </mj-style>
+    </mj-style> -->
 
-
-
-    <mj-font name="EB Garamond" href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" />
-    <mj-font name="Jost" href="https://fonts.googleapis.com/css2?family=Jost&display=swap" />
-    <mj-font name="Archivo Black" href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" />
-    <mj-font name="Lato" href="https://fonts.googleapis.com/css2?family=Lato&display=swap" />
     <mj-font name="Inter" href="https://fonts.googleapis.com/css2?family=Inter&display=swap" />
   </mj-head>
 
@@ -59,66 +34,64 @@
 
 
   <mj-body>
-    <mj-wrapper css-class="bg-img" background-url="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/lostisland_5.png" background-repeat="repeat">
+    <mj-wrapper>
       <mj-section padding="0">
         <!-- Header Section -->
-        <mj-column vertical-align="middle" width="30%">
-          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/SNUC%20-%20White.png" alt="" align="left" width="125px" />
-        </mj-column>
-        <mj-column vertical-align="middle" width="40%">
-          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/Instincts%202023.png" alt="Instincts'23" width='150px' />
-        </mj-column>
-        <mj-column vertical-align="middle" width="30%" css-class="ssn-logo">
-          <mj-image src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/ssn%20-%20white.png" alt="" align="right" width="100px" />
-        </mj-column>
+        <mj-group>
+          <mj-column vertical-align="middle" width="30%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/SNUc_-_Blue.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678262790518" alt="" align="left" width="125px" />
+          </mj-column>
+          <mj-column vertical-align="middle" width="40%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/Instincts_2023.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583669" alt="Instincts'23" width='150px' />
+          </mj-column>
+          <mj-column vertical-align="middle" width="30%">
+            <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/SSN_Blue.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678262790519" alt="" align="right" width="100px" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section padding="0">
 
       </mj-section>
 
       <mj-section>
         <mj-column css-class="text-layout">
           <!-- Content text goes here -->
-          <mj-text font-family="Inter" line-height="17px" letter-spacing="0.1px" color="#ffffff" font-size="14px">
-            <br><br>
-            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;SSN Institutions and Shiv Nadar University, Chennai was established by Dr. Shiv Nadar, Founder - HCL, to ensure quality education for young bloods. As part of displaying artistic expression, to bring people together and foster community development “Instincts” was introduced to the college in 2006.</p><br><br>
-            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;INSTINCTS 2023, which is going to take place on March 9,10, and 11, 2023. It is A National Level Cultural Festival that consists array of multiple talent-driven cultural events and lures a significant number of bright and talented students from reputed institutions to showcase their skills and creativity in various forms.</p><br><br>
-            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;With this year’s theme “LOST CONTINENT” instincts have geared up with mysteries and suspense. The three days of mixed cultural extravaganza promises to be a sensational feast for the senses, marking some exciting and unforgettable memories in the life of students.</p><br><br>
-            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;This year features events such as Tamil and English Literary Events, Music, Dance, Quiz contests, etc., to name a few. In addition to this, 'Instincts' will also feature a Pro-Show and a DJ night, which makes you fall for the raise of the moon at dawning and the blazing orange of the sun at twilight. For there is no sight that could complete and no way to escape.</p><br><br>
-            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;The college extends a warm welcome to students from colleges all over India to exhibit the best in them. Open your hearts, your minds, and your wings to unleash the secrets buried far below the human city around the abyss. Join yourself for a grandeur of fun and entertainment.</p><br><br>
+          <mj-text>
+
           </mj-text>
+          <mj-text font-family="Inter" line-height="17px" letter-spacing="0.1px" color="#000000" font-size="14px">
+            <br>
+            <p style="margin:0 ;font-size:15px; ;text-align: justify; text-justify: inter-word">Greetings from <span style="margin:0 ;font-size:18px; font-weight:bold;">The SNUC Business Club!</span></p><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">&emsp;&emsp;We would like to extend a formal invitation to you and your esteemed organization to attend the <span style=" font-weight:bold;">IPL Auction </span> event our club is conducting at Instincts 2k23. The event is scheduled to take place on 11th March at 8:30am in the Shiv Nadar university lobby.</p><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">The Business Club has conducted multiple successful intra-university auctions before, and we are glad to bring this flagship event of ours to Instincts.</p>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">This year's IPL Auction will feature a preliminary round and a final round.</p><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">The preliminary round will take place on 9th March at 3pm on an online platform - Quizziz. Participants will be tested on cricket-based questions. The top 10 teams in terms of points will progress to the final round.</p><br>
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">The final round will take place on 11th March at 8:30 am in the Shiv Nadar University lobby. The teams that have made it to the final round will compete against each other to build potentially title winning squads for their franchises. The atmosphere promises to be electric as the teams battle it out to be crowned the champions.</p><br>
+
+            <p style="margin:0 ;text-align: justify; text-justify: inter-word">We would be honoured if you could join us for the event. Thank you for considering our invitation. We look forward to welcoming you and your organization at Instincts 2k23 .</p><br>
+          </mj-text>
+          <mj-button border-radius="20px" color="#000000" font-family="Inter" background-color="#ADD8E6" href="https://www.ssnsnucinstincts.com/clubs/business">
+            Registration link
+          </mj-button>
+          <mj-image src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/business.png?ik-sdk-version=javascript-1.4.3&updatedAt=1678264265810" alt="SNUC Business club" width="100px" />
         </mj-column>
       </mj-section>
     </mj-wrapper>
-    <mj-section css-class="img-grad" padding="0 10px 10px 10px">
-      <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i5.png">
-      </mj-column>
-      <mj-column width="auto">
-        <mj-image css-class="event-img-left" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i1.png">
-      </mj-column>
-      <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i4.png">
-      </mj-column>
-      <mj-column width="auto">
-        <mj-image css-class="event-img-left" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i2.png">
-      </mj-column>
-      <mj-column width="auto">
-        <mj-image css-class="event-img-right" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/i3.png">
-      </mj-column>
-    </mj-section>
+
     <!-- Footer section -->
     <mj-section padding="0">
       <mj-column css-class="grad">
-        <mj-social align="center" padding="0px 1px 1px 1px" mode="horizontal" font-size="10px" color="#ffffff">
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 1.5px 2px 20px" href="https://www.instagram.com/ssnsnucinstincts/" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-instagram-50.png">
+        <mj-social align="center" padding="0px 1px 1px 1px" mode="horizontal" font-size="10px" color="#000">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 1.5px 2px 20px" href="https://www.instagram.com/ssnsnucinstincts/" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-instagram-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583076">
             ssnsnucinstincts
           </mj-social-element>
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 2.5px 2px 20px" href="https://www.ssnsnucinstincts.com" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-internet-50.png">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="24px" padding="1px 2.5px 2px 20px" href="https://www.ssnsnucinstincts.com" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-internet-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583080">
             www.ssnsnucinstincts.com
           </mj-social-element>
-          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="22px" padding="1px 2.5px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/icons8-facebook-50.png">
+          <mj-social-element font-family="Inter" font-size="10.5px" align="center" icon-size="22px" padding="1px 2.5px 2px 20px" href="https://www.facebook.com/instincts.ssnsnuc/" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/icons8-facebook-50.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139583102">
             instincts.ssnsnuc
           </mj-social-element>
-          <mj-social-element align="center" icon-size="36px" padding="10px 4px 15px 20px" href="" src="https://raw.githubusercontent.com/Surya-29/Instincts-23-Mail-Template/main/src/static/Torch.png">
+          <mj-social-element align="center" icon-size="36px" padding="10px 4px 15px 20px" href="" src="https://ik.imagekit.io/hehe2302/ssnsnucinstincts/Torch.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677139585650">
           </mj-social-element>
         </mj-social>
 
